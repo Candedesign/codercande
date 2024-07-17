@@ -1,0 +1,662 @@
+/** Imports**/
+.primary-button, .enviar-button, .comprar-button, .ver-producto-button {
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #E5D1D0;
+  color: #353535;
+  border-style: hidden;
+  border-radius: 16px;
+  padding: 16px 16px 16px 16px;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 16px 0px;
+}
+.primary-button:hover, .enviar-button:hover, .comprar-button:hover, .ver-producto-button:hover {
+  background-color: #c29c9a;
+}
+
+.secondary-button, .carrito-button {
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: rgb(255, 255, 255);
+  color: #353535;
+  border: 1px solid #E5D1D0;
+  border-radius: 16px;
+  padding: 16px 16px 16px 16px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.font-medium, .telefono, .direccion, .input-label-text, .titulo-producto-card, .descripcion-prod, .productos-link, .contacto-link, .carrito-link {
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 500;
+  color: #353535;
+  text-decoration: none;
+}
+
+.font-large, .logo-name {
+  font-size: 18px;
+  font-family: roboto;
+  font-weight: 600;
+  color: #353535;
+}
+
+.font-xlarge, .subtitulo-seccion {
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: 500;
+  color: #353535;
+}
+
+.font-xxlarge, .titulo, .precio, .titulo-card-prin {
+  font-family: roboto;
+  font-size: 24px;
+  font-weight: 600;
+  color: #353535;
+}
+
+/** Spacings sizes **/
+.logo-empresa {
+  width: 64px;
+  height: 64px;
+  padding: 24px;
+  display: inline-flex;
+  padding: 12px;
+  align-items: center;
+  width: 70%;
+}
+
+.textarea-input, .text-area {
+  background-color: rgb(255, 255, 255);
+  border-radius: 16px;
+  border: 1px solid #BBBBBB;
+  font-family: roboto;
+  padding: 16px;
+  margin: 16px 0px;
+}
+
+.input-label-style, .input-label {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0px;
+  margin: 16px 0px;
+}
+
+.input {
+  background-color: white;
+  border-radius: 16px;
+  border: 1px solid #BBBBBB;
+  font-family: roboto;
+  padding: 16px;
+  margin: 16px 0px;
+}
+
+/** Spacings sizes **/
+.logo-empresa {
+  width: 64px;
+  height: 64px;
+  padding: 24px;
+  display: inline-flex;
+  padding: 12px;
+  align-items: center;
+  width: 70%;
+}
+
+.contact-card-style, .card-contacto {
+  display: flex;
+  display: flex;
+  justify-content: center;
+  padding: 24px 16px;
+  width: 640px;
+}
+
+.contact-card-d, .card-contacto, .contact-card {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: -4px -4px 15px #D0D0CB;
+  padding: 40px 24px;
+  width: 910px;
+  height: auto;
+  display: flex;
+  align-content: center;
+}
+
+/** Spacings sizes **/
+.logo-empresa {
+  width: 64px;
+  height: 64px;
+  padding: 24px;
+  display: inline-flex;
+  padding: 12px;
+  align-items: center;
+  width: 70%;
+}
+
+/** header**/
+.header {
+  background-color: #E5D1D0;
+  box-shadow: 4px 4px 15px gray;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  grid-area: header;
+}
+
+nav {
+  display: inline-flex;
+  padding: 8px 24px;
+}
+
+.opciones-header {
+  display: inline-flex;
+  padding: 12px;
+  width: 60%;
+  justify-content: right;
+}
+
+.bgr-menu {
+  display: none;
+  align-content: center;
+  justify-content: center;
+}
+
+/** Index **/
+.banner {
+  justify-content: center;
+  margin: 40px 0px;
+  padding: 0px 32px;
+}
+
+.img-banner {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.img-banner:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.card-producto {
+  width: auto;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 4px 4px 15px #D0D0CB;
+  border-radius: 16px;
+  padding: 16px;
+  margin: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.imagen-producto {
+  width: auto;
+  height: 240px;
+  width: 380px;
+  height: auto;
+  justify-self: center;
+  padding: 16px 0%;
+  align-self: center;
+}
+.imagen-producto:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.productos-listado {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+}
+
+/** Cards **/
+.contenido-art {
+  display: flex;
+  flex-direction: row;
+  margin: 32px;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.principal-card {
+  background-color: rgb(255, 255, 255);
+  border-radius: 16px;
+  box-shadow: -4px -4px 15px #D0D0CB;
+  padding: 24px;
+  width: auto;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-producto {
+  width: 270px;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 4px 4px 15px #D0D0CB;
+  border-radius: 16px;
+  padding: 24px 16px 24px 16px;
+  margin: 40px;
+  display: inline-block;
+}
+
+.imagen-principal-producto {
+  width: 500px;
+  height: 500px;
+  display: flex;
+}
+.imagen-principal-producto:hover {
+  transition: scale(1.1);
+}
+
+.imagen-producto {
+  width: auto;
+  height: 260px;
+}
+
+.cont-principal-producto {
+  width: 560px;
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+  padding-left: 40px;
+}
+
+.productos-listado {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+/** Contacto**/
+.seccion-contacto {
+  display: flex;
+  justify-content: center;
+}
+
+.formulario {
+  padding: 24px;
+}
+
+.card-contacto {
+  margin: 40px;
+}
+
+.imagen-contacto {
+  display: none;
+}
+
+/** Footer **/
+.mapa {
+  width: auto;
+  height: 250px;
+  border-radius: 16px;
+  margin: 24px 0px;
+}
+
+.redes {
+  width: 36px;
+  height: 36px;
+  color: #353535;
+  display: inline-block;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  background-color: #E5D1D0;
+  padding: 24px;
+  box-shadow: -4px -4px 15px gray;
+}
+
+.contancto-footer {
+  display: flex;
+  flex-direction: row;
+}
+
+/** General **/
+.main {
+  margin: 120px;
+}
+
+.logo-empresa {
+  display: flex;
+}
+
+.subtitulo-seccion {
+  margin: 40px;
+}
+
+body {
+  background-color: #F5F3F0;
+}
+
+ul {
+  padding: 0px;
+}
+
+.menu {
+  display: inline-block;
+  padding: 12px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  margin: 0%;
+  padding: 0%;
+}
+
+/* Queries*/
+@media only screen and (min-width: 500px) and (max-width: 960px) {
+  /* Pantalla Index */
+  .card-producto {
+    width: auto;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 15px #D0D0CB;
+    border-radius: 16px;
+    padding: 16px 16px 16px 16px;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+  .imagen-producto {
+    width: auto;
+    height: 240px;
+  }
+  .imagen-producto:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
+  .productos-listado {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+  }
+  /* Pantalla contacto */
+  .formulario .font-xxlarge, .formulario .titulo-card-prin, .formulario .precio, .formulario .titulo {
+    display: flex;
+    justify-content: center;
+  }
+  .seccion-contacto {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    padding: 0px 24px;
+  }
+  .contact-card {
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: -4px -4px 15px #D0D0CB;
+    padding: 40px 24px;
+    width: 910px;
+    height: auto;
+    display: flex;
+    align-content: center;
+  }
+  .inlineblock {
+    display: inline-block;
+  }
+  .contenido-art {
+    display: flex;
+    flex-direction: row;
+  }
+  /*general*/
+  main {
+    margin: 40px;
+  }
+  .menu {
+    display: none;
+  }
+  .bgr-menu {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+    align-content: center;
+    padding: 24px;
+  }
+  header {
+    justify-content: space-between;
+  }
+  .opciones-header {
+    display: none;
+  }
+  /* Pantalla producto*/
+  .principal-card {
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: -4px -4px 15px #D0D0CB;
+    padding: auto;
+    width: auto;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contenido-art {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 16px;
+  }
+  .contenido-art .buttons {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 16px;
+  }
+  .cont-principal-producto {
+    width: auto;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: center;
+    align-content: center;
+    padding: 8px 16px;
+  }
+  .cont-principal-producto {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .imagen-principal-producto {
+    width: 380px;
+    height: auto;
+    justify-self: center;
+    padding: 16px 0%;
+    align-self: center;
+  }
+  .imagen-principal-producto:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
+  /*Footer*/
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5D1D0;
+    padding: 24px;
+    box-shadow: -4px -4px 15px #D0D0CB;
+  }
+  footer .logo-empresa {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 960px) and (min-width: 300px) and (max-width: 500px) {
+  /* Pantalla Index */
+  .card-producto {
+    width: 140px;
+    height: 100%;
+    background-color: white;
+    box-shadow: 4px 4px 15px #D0D0CB;
+    border-radius: 16px;
+    padding: 16px 8px;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .card-producto .primary-button, .card-producto .ver-producto-button, .card-producto .comprar-button, .card-producto .enviar-button {
+    font-size: 12px;
+    padding: 16px 0px;
+    margin: 0px;
+  }
+  .imagen-producto {
+    width: auto;
+    height: 140px;
+  }
+  .imagen-producto:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
+  .productos-listado {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    margin: 24px 0px;
+  }
+  .banner {
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+  }
+  .img-banner {
+    width: 100%;
+  }
+  /* Pantalla contacto */
+  .imagen-contacto {
+    display: none;
+  }
+  .contact-card {
+    display: flex;
+    justify-content: center;
+    padding: 24px 16px;
+    width: 640px;
+  }
+  .formulario .font-xxlarge, .formulario .titulo-card-prin, .formulario .precio, .formulario .titulo {
+    display: flex;
+    justify-content: center;
+  }
+  /*general*/
+  .titulo-seccion {
+    align-self: center;
+    justify-content: center;
+  }
+  main {
+    margin: 16px;
+  }
+  .menu {
+    display: none;
+  }
+  .bgr-menu {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+    align-content: center;
+    padding: 24px;
+  }
+  header {
+    justify-content: space-between;
+  }
+  .opciones-header {
+    display: none;
+  }
+  /* Pantalla producto*/
+  .principal-card {
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: -4px -4px 15px #D0D0CB;
+    padding: auto;
+    width: auto;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contenido-art {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 16px;
+  }
+  .contenido-art .buttons {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 8px;
+  }
+  .cont-principal-producto {
+    width: auto;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: center;
+    align-content: center;
+    padding: 8px 16px;
+  }
+  .cont-principal-producto .font-medium, .cont-principal-producto .carrito-link, .cont-principal-producto .contacto-link, .cont-principal-producto .productos-link, .cont-principal-producto .descripcion-prod, .cont-principal-producto .titulo-producto-card, .cont-principal-producto .input-label-text, .cont-principal-producto .direccion, .cont-principal-producto .telefono {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .imagen-principal-producto {
+    width: 300px;
+    height: auto;
+    justify-self: center;
+    padding: 16px 0%;
+    align-self: center;
+  }
+  /*Footer*/
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5D1D0;
+    padding: 24px;
+    box-shadow: -4px -4px 15px #D0D0CB;
+  }
+  footer .logo-empresa {
+    display: flex;
+    justify-content: center;
+  }
+  .mapa {
+    width: auto;
+    height: 250px;
+    border-radius: 16px;
+    margin: 24px 0px;
+  }
+}
+
+/*# sourceMappingURL=style_new.css.map */
